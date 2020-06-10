@@ -1,19 +1,20 @@
 body
 {
-  background-image: linear-gradient(to right top, #1f0537, #380c60, #55108c, #7413bb, #9612eb);
+    background-image: linear-gradient(to right top, #1f0537, #380c60, #55108c, #7413bb, #9612eb);
     height: 100%;
-	background-repeat:no-repeat; 
+    background-repeat:no-repeat; 
     background-attachment: fixed;
     margin: 0;
 	
 }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (max-width: 600px) {
   body {
-	  
-	  background-image: linear-gradient(to right top, #1f0537, #380c60, #55108c, #7413bb, #9612eb);
-    height: 100%;
-    margin: 0;
+	background-image: linear-gradient(to right top, #1f0537, #380c60, #55108c, #7413bb, #9612eb);
+	  height: 100%;
+	  background-repeat:no-repeat; 
+    	  background-attachment: fixed;
+          margin: 0;
 
   }
 }
